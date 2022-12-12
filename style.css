@@ -10,12 +10,13 @@
 
 @font-face {
     font-family: 'MyWebFont';
-    src: url(/wp-content/themes/egyptuniversities/assets/fonts/NotoSansArabic-SemiCondensedMedium.ttf);
+    /*src: url(/assets/fonts/NotoSansArabic-SemiCondensedMedium.ttf);*/
+    src: url(/egyptuniversities/assets/fonts/NotoSansArabic-SemiCondensedMedium.ttf);
 }
 
 @font-face {
     font-family: 'MyWebFont_2';
-    src: url(/wp-content/themes/egyptuniversities/assets/fonts/Droid-Naskh-Regular.ttf);
+    src: url(/egyptuniversities/assets/fonts/Droid-Naskh-Regular.ttf);
 }
 
 
@@ -263,6 +264,7 @@
     color: black;  
     font-size: 21px;
     font-weight: 800;
+    text-decoration: none;
 
   }
 }
@@ -2661,23 +2663,12 @@ font-weight: 800;
 
 .adiv
 {
-
-
     border: solid 0.5px #26618B;
-
-
-   width: 240px;
-
-   background-color: white;
-
-   margin: 1rem 0.5rem 1rem 0.5rem;
-
-   border-radius: 2px;
-
-   display: flexbox;
-
-
-
+    width: 240px;
+    background-color: white;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    border-radius: 2px;
+    display: flexbox;
 }
 
 
@@ -2685,25 +2676,17 @@ font-weight: 800;
     margin: auto;
     width: 90vw;
     display: flex;
-
-
     justify-content: center;
- 
     flex-wrap: wrap;
-
 }
 
 
 
 
 .bottom_sec_indiv{
-
     background-color: #26618B;
-
-  
     padding: 0.5rem;
-
-   text-align: right;
+    text-align: right;
 }
 
 
@@ -2711,28 +2694,17 @@ font-weight: 800;
 
 .top_sec_indiv
 {
-
-   
-
-    height: 150px;
-
-
-
-
+   height: 170px;
 }
 
 
 .pin_bottom_sec
 {
-
    color:white;
-
-font-family: tajawal;
-
-font-size: large;
-
-font-weight: bold;
-
+   font-family: tajawal;
+   font-size: large;
+   font-weight: bold;
+   margin: 0;
 }
 
 
