@@ -92,8 +92,12 @@
     border:;
     align-content: center;
     border:  red;
-    align-items: center;
+    
     align-content: center;
+    width: 75%;
+
+
+
   }
 }
 
@@ -211,12 +215,14 @@
    {   
      
      display: flex;
-     border-bottom: solid 5px ;
-     border-color: #FCFCFC;
+  
+     border:;
+     border-bottom:  5px ;
+     border-color: ;
      align-items: center;
     
      margin-right: 3rem;
-     border:  black;
+   
     
    }
 }
@@ -229,11 +235,11 @@
 .div_contain_a_tag:hover
 {
      display: flex;
-     border-bottom: solid 5px ;
-    border-color: #26618B;
+     border-bottom: solid 3px;
+    border-color: #26618B ;
     align-items: center;
-    margin-top: 1rem;
-     margin-right: 3rem;
+  
+    margin-right: 3rem;
 }
 }
 
